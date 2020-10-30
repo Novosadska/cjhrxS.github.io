@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <!-- <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384- /ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="container-fluid d-flex justify-content-between align-items-center">
+            <div class="header-logo">
+                <a href="#" class="logo-link">Logo</a>
+            </div>
+            <nav class="header-menu">
+                <a href="#about" class="menu-link">about</a>
+                <a href="#works" class="menu-link">works</a>
+                <a href="#contact" class="menu-link">contacts</a>
+            </nav>
+        </div>
+
+
+    </header>
+    <main>
+        <b><section class="section" id="home">
+            <div class="container">
+                <h1 class="home-title">QA/QC Engineer</h1>
+                <!-- <button class="btn-light">Write to me</button> -->
+                <a type="button" href="#contact" class="btn-light">Write to me</a>
+                <br>
+                <i class="fas fa-angle-double-down"></i>
+
+
+
+            </div>
+
+        </section></b>
+    <b><section class="section" id="about">About<p>I'm QA/QC Engineer without any experience.But I have good soft
+                skills and technical knowledges to become high-qualified QA/QC Engineer.I like communication between
+                people, so I can work in team.</p>
+            <p><i class="fas fa-user-graduate"></i>Education</p>
+            <p>-Logos IT Academy (October 2020-November 2020)</p>
+            <p>-Danylo Halytsky Lviv National Medical Univercity (September 2012-June 2018)</p>
+            <p><i class="fas fa-globe"></i>Languages</p>
+            <p>-English.Intermediate B1</p>
+            <p>-Ukrainian</p>
+            <p>-Russian</p>
+        </section></b>
+        <section class="section" id="works">
+
+        <div class="wrapElement">
+        <p><i class="far fa-comments"></i><b><ins> Communication skills:</ins></b> </p>
+                <p>- Listening</p>
+                <p>- Respect</p>
+                <p>- Friendliness</p>
+                <p>- Confidence</p>
+            </div>
+            <div class="wrapElement" id="orgSkills">
+                <p><i class="fas fa-users"></i><ins> Organisational skills:</ins></p>
+                <p>- Teamwork</p>
+                <p>- Planning</p>
+                <p>- Productivity</p>
+                <p>- Multitasking</p>
+            </div>
+            <div class="wrapElement" id="orgSkills">
+                <p><i class="fas fa-laptop"></i><ins> Technologies:</ins></p>
+                <p>- Java Core</p>
+                <p>- HTML/CSS/Java Script</p>
+                <p>- MySQL</p>
+
+            </div>
+            <div class="wrapElement" id="orgSkills">
+                <p><i class="fas fa-code"></i><ins> Development tools:</ins></p>
+                <p>- Visual Studio Code</p>
+
+            </div>
+
+        </section>
+
+        <section class="section" id="contact">
+           <b><div class="superContacts">  Contacts 
+            <p><i class="fas fa-phone-square-alt"></i> Telephone number: +380938188152</p>
+            <p><i class="fas fa-envelope-square"></i> E-mail: beatlejuice1994@gmail.com</p>
+            <p><i class="fab fa-skype"></i> Skype: тетяна новосадська </p>
+            <p><i class="fab fa-instagram-square"></i> Instagram: novosadska_t</p>
+            <p><i class="fab fa-facebook-square"></i> Facebook: Tania Novosadska</p>
+        </div></b>
+           
+                <div id = "formSection" class="form-section bounce-in-top">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input id="name" type="text" class="form-control">
+                    
+                        </div>
+                        <div class="form-group">
+                            <label for="phoneNumber">Telephone number</label>
+                            <input id="phoneNumber" type="text" class="form-control">
+                    
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" cols="30" rows="10"
+                            class="form-control"></textarea>
+                            <button id = "send" type = "button" class = "btn-light">SEND</button>
+                        </div>
+                        
+                    </form>
+                </div>  
+                <button id="show" class="btn btn-dark">Show form</button> 
+                
+        </section>
+       
+    
+
+    </main>
+    <script src="main4.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+            
+</body>
+
+</html>

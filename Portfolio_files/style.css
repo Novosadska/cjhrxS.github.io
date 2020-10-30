@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Playfair Display', serif;
+    overflow: hidden;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+
+.header {
+    height: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    
+}
+.container-fluid {
+    height: 100%;
+
+}
+.logo-link {
+    color: white;
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+
+}
+.header-menu {
+    width: 30%;
+    display: flex;
+   justify-content: space-evenly;
+}
+
+.menu-link {
+    color:white;
+    font-size: 18px;
+}
+.section {
+    height: 100vh;
+    padding-top: 60px;
+}
+
+#home {
+    background-image:url(https://images.unsplash.com/photo-1462903876006-77f6beb241b4?ixlib=rb-1.2.1&auto=format&fit=crop&w=2100&q=80);
+background-size: cover;
+background-attachment: fixed;
+}
+.home-title {
+    position: absolute;
+    right: 5%;
+    bottom: 30px;
+    animation: puff-in-center 2s cubic-bezier(0.470, 0.000, 0.745, 0.715) 1s infinite both;
+    color: white;
+}
+.btn-light {
+    animation: puff-in-center 2s cubic-bezier(0.470, 0.000, 0.745, 0.715) 1s infinite both;
+margin-left: 100px;
+}
+  
+
+i {
+    font-size: 100px;
+    margin-top: 750px;
+    margin-left: 50%;
+    color: white;
+    animation: pulsate-bck 0.5s ease-in-out infinite both;
+}
+#about {
+    background-image: url(https://images.unsplash.com/photo-1462904048565-9e170cb00724?ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80);
+background-size: cover;
+background-attachment: fixed;
+
+}
+#works {
+    background-image: url(https://images.unsplash.com/photo-1529328492227-8ecbcffe0d62?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80);
+
+    background-size: cover;
+    
+}
+#contact {
+    background-image: url(https://images.unsplash.com/photo-1596907732342-e2374ad5d126?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80);
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+
+
+
+
+/*  */
+
+ @keyframes puff-in-center {
+    0% {
+      transform: scale(2);
+      filter: blur(4px);
+      opacity: 0;
+    }
+    100% {
+      transform: scale(1);
+      filter: blur(0px);
+      opacity: 1;
+    }
+
+
+}
+@keyframes pulsate-bck {
+    0% {
+        transform: scale(2);
+        filter: blur(4px);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        filter: blur(0px);
+        opacity: 1;
+    }
+    }
